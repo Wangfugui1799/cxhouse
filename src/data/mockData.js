@@ -1,0 +1,87 @@
+// 模拟数据 - 用于 UI 开发阶段
+export const mockRoomInfo = {
+    id: '1',
+    room_name: '悠然小居',
+    slogan: '让心灵在这里找到归属',
+    description: `
+    <p>这是一间充满温馨气息的民宿，采用北欧简约风格设计。整间房间面积约45平方米，拥有独立卫浴、智能家居设备和观景阳台。</p>
+    <p><strong>房间特色：</strong></p>
+    <ul>
+      <li>落地窗：270°全景视野，清晨可欣赏日出美景</li>
+      <li>榻榻米茶室：静谧角落，品茶读书的理想空间</li>
+      <li>猫咪友好：欢迎携带宠物入住</li>
+      <li>智能家居：语音控制灯光、窗帘、空调</li>
+    </ul>
+    <p><strong>设施配置：</strong></p>
+    <ul>
+      <li>舒适大床 (1.8m × 2m)</li>
+      <li>独立卫浴（干湿分离）</li>
+      <li>迷你厨房（冰箱、微波炉、咖啡机）</li>
+      <li>高速 WiFi</li>
+      <li>投影仪 + 音响系统</li>
+    </ul>
+  `,
+    created_at: '2024-01-01',
+    updated_at: '2024-01-15'
+}
+
+export const mockImages = [
+    { id: '1', file_url: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800', file_name: '客厅全景', sort_order: 1, is_cover: true },
+    { id: '2', file_url: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800', file_name: '卧室', sort_order: 2, is_cover: false },
+    { id: '3', file_url: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800', file_name: '书房角落', sort_order: 3, is_cover: false },
+    { id: '4', file_url: 'https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800', file_name: '阳台景观', sort_order: 4, is_cover: false },
+    { id: '5', file_url: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800', file_name: '卫浴', sort_order: 5, is_cover: false },
+    { id: '6', file_url: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800', file_name: '厨房区域', sort_order: 6, is_cover: false },
+    { id: '7', file_url: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800', file_name: '床铺细节', sort_order: 7, is_cover: false },
+    { id: '8', file_url: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=800', file_name: '窗边阅读区', sort_order: 8, is_cover: false },
+    { id: '9', file_url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800', file_name: '外观', sort_order: 9, is_cover: false },
+    { id: '10', file_url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800', file_name: '夜景', sort_order: 10, is_cover: false },
+    { id: '11', file_url: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800', file_name: '茶室', sort_order: 11, is_cover: false },
+    { id: '12', file_url: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800', file_name: '细节装饰', sort_order: 12, is_cover: false },
+]
+
+export const mockVideos = [
+    {
+        id: '1',
+        file_url: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        thumbnail: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400',
+        file_name: '房间全景漫游',
+        file_size: 245,
+        is_primary: true,
+        sort_order: 1
+    },
+    {
+        id: '2',
+        file_url: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        thumbnail: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400',
+        file_name: '卧室介绍',
+        file_size: 180,
+        is_primary: false,
+        sort_order: 2
+    },
+    {
+        id: '3',
+        file_url: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        thumbnail: 'https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=400',
+        file_name: '阳台日落实拍',
+        file_size: 120,
+        is_primary: false,
+        sort_order: 3
+    },
+]
+
+export const mockContactInfo = {
+    id: '1',
+    phone: '138-8888-8888',
+    wechat_qr_url: 'https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=WeChat:minsu_host',
+    email: 'hello@youranminsu.com',
+    address: '浙江省杭州市西湖区龙井路88号',
+    map_lat: 30.2527,
+    map_lng: 120.1099,
+    social_media: [
+        { platform: '小红书', url: 'https://xiaohongshu.com/user/xxx', icon: '📕' },
+        { platform: '抖音', url: 'https://douyin.com/user/xxx', icon: '🎵' },
+        { platform: 'Instagram', url: 'https://instagram.com/xxx', icon: '📸' },
+    ],
+    updated_at: '2024-01-15'
+}
