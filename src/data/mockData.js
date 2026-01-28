@@ -26,18 +26,15 @@ export const mockRoomInfo = {
 }
 
 export const mockImages = [
-    { id: '1', file_url: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800', file_name: '客厅全景', sort_order: 1, is_cover: true },
-    { id: '2', file_url: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800', file_name: '卧室', sort_order: 2, is_cover: false },
-    { id: '3', file_url: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800', file_name: '书房角落', sort_order: 3, is_cover: false },
-    { id: '4', file_url: 'https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800', file_name: '阳台景观', sort_order: 4, is_cover: false },
-    { id: '5', file_url: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800', file_name: '卫浴', sort_order: 5, is_cover: false },
-    { id: '6', file_url: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800', file_name: '厨房区域', sort_order: 6, is_cover: false },
-    { id: '7', file_url: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800', file_name: '床铺细节', sort_order: 7, is_cover: false },
-    { id: '8', file_url: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=800', file_name: '窗边阅读区', sort_order: 8, is_cover: false },
-    { id: '9', file_url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800', file_name: '外观', sort_order: 9, is_cover: false },
-    { id: '10', file_url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800', file_name: '夜景', sort_order: 10, is_cover: false },
-    { id: '11', file_url: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800', file_name: '茶室', sort_order: 11, is_cover: false },
-    { id: '12', file_url: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800', file_name: '细节装饰', sort_order: 12, is_cover: false },
+    { id: '1', file_url: '/images/1.jpg', file_name: '民宿外观', sort_order: 1, is_cover: true },
+    { id: '2', file_url: '/images/2.jpg', file_name: '温馨客厅', sort_order: 2, is_cover: false },
+    { id: '3', file_url: '/images/3.jpg', file_name: '舒适卧室', sort_order: 3, is_cover: false },
+    { id: '4', file_url: '/images/4.jpg', file_name: '精致装饰', sort_order: 4, is_cover: false },
+    { id: '5', file_url: '/images/5.jpg', file_name: '阳台景观', sort_order: 5, is_cover: false },
+    { id: '6', file_url: '/images/6.jpg', file_name: '独立卫浴', sort_order: 6, is_cover: false },
+    { id: '7', file_url: '/images/7.jpg', file_name: '休闲角落', sort_order: 7, is_cover: false },
+    { id: '8', file_url: '/images/8.jpg', file_name: '窗边风景', sort_order: 8, is_cover: false },
+    { id: '9', file_url: '/images/9.jpg', file_name: '夜间氛围', sort_order: 9, is_cover: false },
 ]
 
 export const mockVideos = [
