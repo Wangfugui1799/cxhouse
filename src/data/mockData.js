@@ -1,7 +1,7 @@
 // 模拟数据 - 用于 UI 开发阶段
 export const mockRoomInfo = {
     id: '1',
-    room_name: '悠然小居',
+    room_name: '辰奚小院',
     slogan: '让心灵在这里找到归属',
     description: `
     <p>这是一间充满温馨气息的民宿，采用北欧简约风格设计。整间房间面积约45平方米，拥有独立卫浴、智能家居设备和观景阳台。</p>

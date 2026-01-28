@@ -9,7 +9,7 @@ export default function Header({ transparent = false }) {
                 <Link to="/" className="flex items-center gap-2">
                     <span className="text-2xl">🏡</span>
                     <span className={`font-semibold text-lg ${transparent ? 'text-white' : 'text-text-primary'}`}>
-                        悠然小居
+                        辰奚小院
                     </span>
                 </Link>
 

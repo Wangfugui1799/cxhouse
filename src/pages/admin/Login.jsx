@@ -33,7 +33,7 @@ export default function AdminLogin() {
                 <div className="text-center mb-8">
                     <span className="text-5xl">🏡</span>
                     <h1 className="text-2xl font-bold text-text-primary mt-4">后台管理</h1>
-                    <p className="text-text-muted mt-2">悠然小居 · 内容管理系统</p>
+                    <p className="text-text-muted mt-2">辰奚小院 · 内容管理系统</p>
                 </div>
 
                 {/* Login Card */}

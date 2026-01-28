@@ -130,7 +130,7 @@ export default function Contact() {
                             <p className="text-text-secondary">{contactInfo.address}</p>
                             {contactInfo.map_lat && contactInfo.map_lng && (
                                 <a
-                                    href={`https://uri.amap.com/marker?position=${contactInfo.map_lng},${contactInfo.map_lat}&name=悠然小居`}
+                                    href={`https://uri.amap.com/marker?position=${contactInfo.map_lng},${contactInfo.map_lat}&name=辰奚小院`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-1 text-warm-orange text-sm mt-2 hover:underline"

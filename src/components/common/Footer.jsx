@@ -9,7 +9,7 @@ export default function Footer() {
                     <div>
                         <Link to="/" className="flex items-center gap-2 mb-4">
                             <span className="text-2xl">🏡</span>
-                            <span className="font-semibold text-lg text-text-primary">悠然小居</span>
+                            <span className="font-semibold text-lg text-text-primary">辰奚小院</span>
                         </Link>
                         <p className="text-text-secondary text-sm leading-relaxed">
                             让心灵在这里找到归属<br />
@@ -66,7 +66,7 @@ export default function Footer() {
                 {/* Copyright */}
                 <div className="border-t border-wood-200 mt-8 pt-6 text-center">
                     <p className="text-text-muted text-sm">
-                        © {new Date().getFullYear()} 悠然小居 · 保留所有权利
+                        © {new Date().getFullYear()} 辰奚小院 · 保留所有权利
                     </p>
                 </div>
             </div>
